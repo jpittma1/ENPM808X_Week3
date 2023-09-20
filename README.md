@@ -15,7 +15,7 @@ cd Week3/SoftwareEngineering_9_4  <br />
 cd Week3/SoftwareEngineering_9_5  <br />
 `cmake -S ./ -B build/` <br />
 `cmake --build build/` <br />
-`./build/app/shell-app`
+`./build/app/shell-app` <br />
 Input desired number to be square rooted when prompted.
 
 ---
