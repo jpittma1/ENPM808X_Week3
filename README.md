@@ -1,22 +1,24 @@
-Pittman, Jerry (117077120)
-UMD-CP PMRO ENPM808X Fall 2024
-Week 3 Problems
+# Pittman, Jerry (117077120)
+UMD-CP PMRO ENPM808X Fall 2024 <br />
+# Week 3 Problems
 
 ## -----How to Run-----
-# Problem 9-4
-cd Week3/SoftwareEngineering_9_4
-cmake -S ./ -B build/
-cmake --build build/
-./build/app/shell-app
+### Problem 9-4
+cd Week3/SoftwareEngineering_9_4  <br />
+`cmake -S ./ -B build/` <br />
+`cmake --build build/` <br />
+`./build/app/shell-app`
 
-# Problem 9-5
-cd Week3/SoftwareEngineering_9_5
-cmake -S ./ -B build/
-cmake --build build/
-./build/app/shell-app
+---
+
+### Problem 9-5
+cd Week3/SoftwareEngineering_9_5  <br />
+`cmake -S ./ -B build/` <br />
+`cmake --build build/` <br />
+`./build/app/shell-app`
 Input desired number to be square rooted when prompted.
 
-# ----------------------------
+---
 
 ## Standard install via command-line
 # Create make files:
