@@ -1,0 +1,20 @@
+jerry@DESKTOP-0Q549TL:~/Documents/Week3$ cppcheck --enable=all --std=c++11 -I include/ --suppress=missingInclude $( find . -name *.cpp | grep -vE -e "^./build/" )
+(information) Couldn't find path given by -I 'include/'
+Checking SoftwareEngineering_9_4/app/main.cpp ...
+1/6 files checked 44% done
+Checking SoftwareEngineering_9_5/app/main.cpp ...
+2/6 files checked 80% done
+Checking libs/lib1/src.cpp ...
+3/6 files checked 81% done
+Checking libs/lib2/src.cpp ...
+4/6 files checked 84% done
+Checking test/main.cpp ...
+test/main.cpp:8:15: style: Variable 'notUsed' is assigned a value that is never used. [unreadVariable]
+  int notUsed = my_function1(3);
+              ^
+5/6 files checked 91% done
+Checking test/test.cpp ...
+6/6 files checked 100% done
+test/main.cpp:6:0: style: The function 'function_not_used' is never used. [unusedFunction]
+
+^

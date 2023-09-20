@@ -1,0 +1,10 @@
+jerry@DESKTOP-0Q549TL:~/Documents/Week3$ cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./build/" )
+Done processing ./SoftwareEngineering_9_4/app/main.cpp
+Done processing ./SoftwareEngineering_9_5/app/main.cpp
+./libs/lib1/src.cpp:2:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+Done processing ./libs/lib1/src.cpp
+./libs/lib2/src.cpp:2:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+Done processing ./libs/lib2/src.cpp
+Done processing ./test/main.cpp
+Done processing ./test/test.cpp
+Total errors found: 2

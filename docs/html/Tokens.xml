@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+  <Token>
+    <TokenIdentifier>
+      <Name>md_README</Name>
+      <APILanguage>markdown</APILanguage>
+    </TokenIdentifier>
+    <Path>md__r_e_a_d_m_e.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SquareRoot</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SquareRoot</Scope>
+    </TokenIdentifier>
+    <Path>class_square_root.html</Path>
+    <Abstract>Class for squaring a number.</Abstract>
+    <DeclaredIn>squareroot.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>squareNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>SquareRoot</Scope>
+    </TokenIdentifier>
+    <Path>class_square_root.html</Path>
+    <Anchor>aa64db2ba3ead9e29a96295ca9442bd9e</Anchor>
+    <Abstract>Method to square an inputted Number.</Abstract>
+    <DeclaredIn>squareroot.hpp</DeclaredIn>
+  </Token>
+</Tokens>

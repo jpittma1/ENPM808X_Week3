@@ -1,0 +1,2 @@
+jerry@DESKTOP-0Q549TL:~/Documents/Week3/SoftwareEngineering_9_4$ cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./build/" )
+Done processing ./app/main.cpp
